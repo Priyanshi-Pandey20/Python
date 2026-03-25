@@ -6,3 +6,8 @@ print("First letter of my name :",str1)
 print("Last letter of my name : ", str2)
 print("Length of my name : ",length)
 
+
+food = str(input("Enter your fav food name : "))#halwa
+str1 = food[1:4]
+print(str1)
+
