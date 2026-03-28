@@ -17,3 +17,5 @@ marks["Science"] = 92
 marks["Geography"] =90
 print(marks)
 
+
+
