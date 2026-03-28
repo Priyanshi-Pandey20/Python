@@ -1,3 +1,5 @@
+
+# LISTS ARE MUTABLE # TUPLES ARE IMMUTABLE
 marks = [99,100,90,98]
 print(marks);
 print(marks[1:3])
@@ -9,3 +11,6 @@ marks.pop(1)
 print(marks)
 print(marks)
 marks.insert(1,100)
+
+
+
