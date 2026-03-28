@@ -8,3 +8,5 @@ print(type(student))
 print(student["name"])
 student["favSubject"] = "Maths"
 print(student)
+student.pop("age")
+print(student)
