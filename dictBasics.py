@@ -5,3 +5,6 @@ student = {
     "rollNumber":60
 }
 print(type(student))
+print(student["name"])
+student["favSubject"] = "Maths"
+print(student)
