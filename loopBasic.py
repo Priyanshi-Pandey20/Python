@@ -13,8 +13,15 @@ i = 0
 while i<=num:
    naturalno = naturalno + i
    i += 1
-   
+
 print(naturalno)
+
+
+n= 1
+while n<=4:
+   print("*" * n)
+   n += 1
+   
 
 
 
