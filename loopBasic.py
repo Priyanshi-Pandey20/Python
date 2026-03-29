@@ -25,7 +25,23 @@ while n<=4:
 foodList = ["cakes","mango","choclates"]
 for item in foodList:
    print(item)
+
+for item in range(1,8,1):
+   print(item)   
+
+for num in range(2,20,2):
+   print(num)  
+
+
+i = 1
+while(i<=50):
+   if(i%5 == 0):
+      print("Priyanshi Pandey")
+   i += 1
+print(i)   
+    
    
+
 
 
 
