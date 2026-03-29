@@ -21,7 +21,14 @@ n= 1
 while n<=4:
    print("*" * n)
    n += 1
+
+foodList = ["cakes","mango","choclates"]
+for item in foodList:
+   print(item)
    
+
+
+
 
 
 
