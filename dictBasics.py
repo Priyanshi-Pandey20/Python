@@ -28,4 +28,4 @@ frnd1 = {"priyanshi","priya","palak"}
 frnd2 = {"kajal","poornima"}
 friends = frnd1.union(frnd2)
 friends = frnd1.intersection(frnd2)
-print(friends)
+print(friends) 
