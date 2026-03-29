@@ -1,10 +1,23 @@
-# num = 1
-# while num<=10:
-#     print("Hello")
-#     num = num+1
 
-num1 = 10   
+even = 2
 
-while num1 >= 1:
-    print(num1)
-    num1 = num1-1
+while even <= 50:
+    if(even%2 == 0):
+     print(even)
+
+    even += 1
+
+num = int(input("Enter the natural no. "))
+naturalno = 0
+i = 0
+while i<=num:
+   naturalno = naturalno + i
+   i += 1
+   
+print(naturalno)
+
+
+
+  
+
+
