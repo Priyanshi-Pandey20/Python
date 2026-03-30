@@ -40,6 +40,9 @@
 for numbers in range(1,11,1):
    print(numbers ** 2)   
     
+n = int(input("Enter the number: ")) 
+for i in range(1,11,1):
+   print(n, " X ", i, "=",n*i )   
    
 
 
