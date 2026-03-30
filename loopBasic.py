@@ -29,17 +29,16 @@
 # for item in range(1,8,1):
 #    print(item)   
 
- 
+# i = 1
+# while(i<=50):
+#    if(i%5 == 0):
+#       print("Priyanshi Pandey")
+#    else:  
+#       print(i)     
+#    i += 1
 
-
-i = 1
-while(i<=50):
-   if(i%5 == 0):
-      print("Priyanshi Pandey")
-   else:  
-      print(i)     
-   i += 1
-    
+for numbers in range(1,11,1):
+   print(numbers ** 2)   
     
    
 
