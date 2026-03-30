@@ -47,6 +47,14 @@ for i in range(1,11,1):
 for j in range(100,0,-1):
    print(j)
    
+text = "Priyanshi Pandey"   
+uppercase = text.upper()
+for k in range(1,6,1):
+   print(uppercase)
+
+
+   
+   
 
 
 
