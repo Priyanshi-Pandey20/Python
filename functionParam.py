@@ -19,3 +19,28 @@ def sum(a,b):
 
 sum(5,5)
 sum(10,5)
+
+def multiply(a,b):
+    return(a*b)
+
+result = multiply(9,9)
+print(result)
+
+def countvowelsandconsonent(userInput):
+    vowels = "aeiouAEIOU"
+    countVowel = 0
+    countConsonent = 0
+
+    for eachChar in userInput:
+        if(eachChar.isalpha()):
+            if(eachChar in vowels):
+                countVowel+=1
+            else:
+                countConsonent+=1
+    return countVowel,countConsonent
+
+vowels,consonent = countvowelsandconsonent("Priyanshi Pandey")     
+print(vowels,consonent)           
+
+
+
