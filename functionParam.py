@@ -37,6 +37,7 @@ def countvowelsandconsonent(userInput):
                 countVowel+=1
             else:
                 countConsonent+=1
+                
     return countVowel,countConsonent
 
 vowels,consonent = countvowelsandconsonent("Priyanshi Pandey")     
