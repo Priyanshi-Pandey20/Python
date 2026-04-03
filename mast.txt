@@ -1,2 +1,3 @@
-Hi I am Priyanshi Pandey. I am learning python 
-Learning python from python courses from Saumya Singh
+Live Score = 78
+Total Score = 100
+Score To Win = 90
