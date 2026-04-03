@@ -26,11 +26,15 @@ file.close()
 #     print("line3",line3)  
 #     print("file data",data)
 
-with open("mast.txt","r") as f: #READING ALL THE LINES IN ONE GO 
-    line = f.readlines()
-    print(line)
+# with open("mast.txt","r") as f: #READING ALL THE LINES IN ONE GO 
+#     line = f.readlines()
+#     print(line)
 
-    
+with open("mast.txt","r") as f: #TOTAL NO. OF LINES 
+    line = f.readlines()
+\
+    print(len(line))
+
 
 
 
