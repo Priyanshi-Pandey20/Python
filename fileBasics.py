@@ -1,3 +1,5 @@
+import os
+
 file = open("mast.txt","r")
 data = file.read()   #READING THE ENTIRE FILE 
 dataFile = data.lower()
@@ -32,8 +34,11 @@ file.close()
 
 with open("mast.txt","r") as f: #TOTAL NO. OF LINES 
     line = f.readlines()
-\
     print(len(line))
+
+os.rename("report.txt","hello.txt")    
+
+
 
 
 
