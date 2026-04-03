@@ -1,4 +1,5 @@
-import os
+
+import shutil
 
 file = open("mast.txt","r")
 data = file.read()   #READING THE ENTIRE FILE 
@@ -36,7 +37,15 @@ with open("mast.txt","r") as f: #TOTAL NO. OF LINES
     line = f.readlines()
     print(len(line))
 
-os.rename("report.txt","hello.txt")    
+# os.rename("report.txt","hello.txt") #RENAMING THE FILE 
+
+shutil.copy("hello.txt","mast.txt") #COPYING THE CONTENT OF ONE FILE TO ANOTHER
+
+
+
+
+
+
 
 
 
