@@ -27,6 +27,21 @@ class Student:
 student1 = Student("Sneha","Communication")#init method will be called
 student2 = Student("Khushi","B.Tech")  
 
+#METHODS
+
+class Student:
+    def __init__(self,name,listOfMarks):
+        self.name = name
+        self.listOfMarks = listOfMarks
+    def average(self):
+        sum = 0
+        for eachval in self.listOfMarks:
+            sum = sum+eachval
+        average = sum/3
+        print("Average is :",average)
+student= Student("Avi",[99,90,98])
+student.average()
+
 
 
 
