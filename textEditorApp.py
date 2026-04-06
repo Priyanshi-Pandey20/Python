@@ -9,7 +9,7 @@ root.geometry("800x600")
 text = tk.Text(
     root,
     wrap=tk.WORD,
-    font=("Helveltica",12)
+    font=("Helveltica",18)
 )
 
 text.pack(expand=True,fill=tk.BOTH)
@@ -54,20 +54,14 @@ menu.add_cascade(label="File",menu=file_menu)
 
 
 file_menu.add_command(label="New",command=new_file)
+file_menu.add_separator()
 file_menu.add_command(label="Open",command=open_file)
+file_menu.add_separator()
 file_menu.add_command(label="Save",command=save_file)
 file_menu.add_separator()
 file_menu.add_command(label="Exit",command=root.quit)
 
 
 
-
-
-
-            
-
-
-
-      
 
 root.mainloop()
