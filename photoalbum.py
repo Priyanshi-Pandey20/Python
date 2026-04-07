@@ -9,13 +9,12 @@ root.geometry("900x900")
 
 #List of Image Paths
 image_paths=[
-    r"\Users\Dell\OneDrive\Desktop\Album\img1.avif",
-    r"\Users\Dell\OneDrive\Desktop\Album\img2.webp",
-    r"\Users\Dell\OneDrive\Desktop\Album\img1.avif",
-    r"\Users\Dell\OneDrive\Desktop\Album\img1.jpg", 
-    r"\Users\Dell\OneDrive\Desktop\Album\img1.avif",
-    r"\Users\Dell\OneDrive\Desktop\Album\img1.jpg",
-    "",
+   r"C:\Users\Dell\OneDrive\Desktop\Album\img1.avif",
+    r"C:\Users\Dell\OneDrive\Desktop\Album\img2.webp",
+    r"C:\Users\Dell\OneDrive\Desktop\Album\img3.avif",
+    r"C:\Users\Dell\OneDrive\Desktop\Album\img4.jpg",
+    r"C:\Users\Dell\OneDrive\Desktop\Album\img5.avif",
+    r"C:\Users\Dell\OneDrive\Desktop\Album\img6.jpg"
 ]
 image_size = (700,700)
 images=[]
@@ -45,12 +44,13 @@ def start_slideshow():
 #Button
 play_button = tk.Button(
     root,
-    text = "Play the Slideshow"
-    font=("Arial",17)
+    text = "Play the Slideshow",
+    font=("Arial",17),
     command=start_slideshow
 )
 play_button.pack(pady=40)
 
+root.mainloop()
 
 
 
